@@ -27,19 +27,19 @@ $(".btn").click(function (){
 
 function playSound(name){
     switch(name){
-    case "red" : var red = new Audio(src="/sounds/red.mp3");
+    case "red" : var red = new Audio(src="sounds/red.mp3");
                 red.play();
                 break;
-    case "blue"  : var blue  = new Audio(src="/sounds/blue.mp3");
+    case "blue"  : var blue  = new Audio(src="sounds/blue.mp3");
                 blue.play();
                 break;
-    case "green" : var green = new Audio(src="/sounds/green.mp3");
+    case "green" : var green = new Audio(src="sounds/green.mp3");
                 green.play();
                 break;
-    case "yellow" : var yellow = new Audio(src="/sounds/yellow.mp3");
+    case "yellow" : var yellow = new Audio(src="sounds/yellow.mp3");
                 yellow.play();
                 break;
-                case "wrong" :             var wrong =  new Audio(src="/sounds/wrong.mp3");
+                case "wrong" :             var wrong =  new Audio(src="sounds/wrong.mp3");
                 wrong.play();
 
 }
