@@ -1,13 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap);
+
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #de4463;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   margin:  5%;
-  color: #FEF2BF;
+  color: #e7e7e7;
 }
 
 .container {
@@ -22,7 +24,7 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 10px solid #f8b8c6;
   border-radius: 20%;
 }
 
@@ -32,19 +34,19 @@ body {
 }
 
 .red {
-  background-color: red;
+  background-color: rgb(179, 44, 44);
 }
 
 .green {
-  background-color: green;
+  background-color: rgb(95, 180, 95);
 }
 
 .blue {
-  background-color: blue;
+  background-color: rgb(35, 35, 172);
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgb(202, 202, 50);
 }
 
 .pressed {
