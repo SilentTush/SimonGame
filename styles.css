@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap);
 
 body {
   text-align: center;
@@ -6,7 +6,7 @@ body {
 }
 
 #level-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 3rem;
   margin:  5%;
   color: #e7e7e7;
